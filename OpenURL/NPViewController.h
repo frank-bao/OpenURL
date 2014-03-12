@@ -9,5 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface NPViewController : UIViewController
+{
+    IBOutlet UILabel *label;
+    
+}
+
+- (IBAction)createNumber:(id)sender;
+
+- (IBAction)openurl:(id)sender;
 
 @end

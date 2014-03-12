@@ -379,10 +379,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Haifeng Chen (WY37BY9HPV)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenURL/OpenURL-Prefix.pch";
 				INFOPLIST_FILE = "OpenURL/OpenURL-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0E1B3B8F-6FBE-49BD-BEE9-80C245C13DF8";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,10 +394,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Haifeng Chen (WY37BY9HPV)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenURL/OpenURL-Prefix.pch";
 				INFOPLIST_FILE = "OpenURL/OpenURL-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0E1B3B8F-6FBE-49BD-BEE9-80C245C13DF8";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -461,6 +465,7 @@
 				418BBEEE18CED3E100F14387 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		418BBEEF18CED3E100F14387 /* Build configuration list for PBXNativeTarget "OpenURLTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +474,7 @@
 				418BBEF118CED3E100F14387 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
